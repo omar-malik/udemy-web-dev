@@ -10,6 +10,7 @@
 <body>
     <h1>Forums Demo</h1>
 
+
     <form action="">
         <h2>Searches</h2>
         <p>
@@ -31,36 +32,51 @@
         <button>click here</button>
     </form>
 
+
     <h2>More Inputs!</h2>
-    <form action="/birds">
-        <input type="checkbox" name="agree_tos" id="agree" checked>
-        <label for="agree">I agree, maybe, not really</label>
-        <button>submit</button>
+
+    <input type="checkbox" name="agree_tos" id="agree" checked>
+    <label for="agree">I agree, maybe, not really</label>
+    <p>
+        <label for="">xs</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="s">s</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="m">m</label>
+        <input type="radio" name="size" id="m" value="m">
+    </p>
+    <p>
+        <label for="meal">Please select an Entree</label>
+        <select name="meal" id="meal">
+            <option value="fish">Fish</option>
+            <option value="veg">Vegetarian</option>
+            <option value="steak">Steak</option>
+        </select>
+    </p>
+    <p>
+        <label for="cheese">Amount of Cheese</label>
+        <input name="cheese_rating" type="range" value="100" id="cheese" min="3" max="7">
+    </p>
+    <p>
+        <label for="requests">Any special requests?</label>
+        <br>
+        <textarea id="requests" placeholder="cool beans" name="" id="" cols="20" rows="10"></textarea>
+    </p>
+
+    <button>submit</button>
+
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input required id="first" type="text" name="first">
         <p>
-            <label for="">xs</label>
-            <input type="radio" name="size" id="xs" value="xs">
-            <label for="s">s</label>
-            <input type="radio" name="size" id="s" value="s">
-            <label for="m">m</label>
-            <input type="radio" name="size" id="m" value="m">
+            <label for="username">Username:</label>
+            <input type="text" id="username" minlength="5" maxlength="20" required>
         </p>
         <p>
-            <label for="meal">Please select an Entree</label>
-            <select name="meal" id="meal">
-                <option value="fish">Fish</option>
-                <option value="veg">Vegetarian</option>
-                <option value="steak">Steak</option>
-            </select>
+            <input type="url">
         </p>
-        <p>
-            <label for="cheese">Amount of Cheese</label>
-            <input name="cheese_rating" type="range" value="100" id="cheese" min="3" max="7">
-        </p>
-        <p>
-            <label for="requests">Any special requests?</label>
-            <br>
-            <textarea id="requests" placeholder="cool beans" name="" id="" cols="20" rows="10"></textarea>
-        </p>
+        <button>Submit</button>
     </form>
 
 </body>
