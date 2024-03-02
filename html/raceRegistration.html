@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register Form</title>
 </head>
 
 <body>
     <h1>Race Registration!</h1>
 
-    <form action="" method="post">
+    <form action="">
         <p>
             <label for="first-name">First Name:</label>
             <input type="text" id="first-name" name="first_name" required>
@@ -45,21 +45,24 @@
             </label>
             <label>
                 Password:
-                <input type="password" name="password">
+                <input type="password" name="password" required>
             </label>
         </p>
 
         <p>
-            Select Age Group
-            <select name="age_group" id="">
-                <option value="under_14">under 14</option>
-                <option value="14-16">14-16</option>
-                <option value="16-18">16-18</option>
-                <option value="18-24">18-24</option>
-                <option value="24-50">24-50</option>
-                <option value="50-64">50-64</option>
-                <option value="64+">64+</option>
-            </select>
+            <label>
+                Select Age Group:
+                <select name="age_group" id="">
+                    <option value="under_14">under 14</option>
+                    <option value="14-16">14-16</option>
+                    <option value="16-18">16-18</option>
+                    <option value="18-24">18-24</option>
+                    <option value="24-50">24-50</option>
+                    <option value="50-64">50-64</option>
+                    <option value="64+">64+</option>
+                </select>
+            </label>
+
         </p>
 
 
