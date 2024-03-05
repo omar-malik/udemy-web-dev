@@ -1,14 +1,16 @@
-h1 {
-    text-align: center;
-    font-weight: 200;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+* {
+	/* selects all elements */
+	color: aqua;
 }
 
 a {
-    text-decoration: none;
+	/* selects all anchor tags */
+	text-decoration: dotted underline;
 }
 
-p {
-    line-height: 1cm;
-    letter-spacing: 3px;
+h1, p {
+	/* selects multiple types of elements */
+	color: darkcyan;
 }
+
