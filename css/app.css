@@ -1,16 +1,22 @@
 
-* {
-	/* selects all elements */
-	color: aqua;
+body {
+	background-color: #42543c;
 }
 
 a {
 	/* selects all anchor tags */
-	text-decoration: dotted underline;
+	color: #023047;
 }
 
-h1, p {
+h1, h2 {
 	/* selects multiple types of elements */
-	color: darkcyan;
+	color: #8ecae6;
 }
 
+#stars {
+	color: #f4a261;
+}
+
+.rocks {
+	color: #a8dadc;
+}
