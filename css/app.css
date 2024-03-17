@@ -1,6 +1,6 @@
 
 body {
-	background-color: #42543c;
+	background-color: #d6e0d2;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 
 h1, h2 {
 	/* selects multiple types of elements */
-	color: #8ecae6;
+	color: #076eaa;
 }
 
 #stars {
@@ -18,5 +18,13 @@ h1, h2 {
 }
 
 .rocks {
-	color: #a8dadc;
+	color: #0c676a;
+}
+
+li a {
+	color: #ff006e;
+}
+
+p + hr {
+	height: 100px;
 }
