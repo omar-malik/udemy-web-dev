@@ -25,6 +25,6 @@ li a {
 	color: #ff006e;
 }
 
-p + hr {
-	height: 100px;
+a {
+	color: rgb(178, 83, 83);
 }
