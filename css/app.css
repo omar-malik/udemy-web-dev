@@ -28,3 +28,7 @@ li a {
 a {
 	color: rgb(178, 83, 83);
 }
+
+input[type=password] {
+	color: #b2ee00;
+}
