@@ -15,3 +15,27 @@
 //     }
 // }
 // alert(`nice!, you guessed ${count} times`)
+
+// let maximum = parseInt(prompt("Enter the maximum number!"));
+// while (!maximum) {
+//     maximum = parseInt(prompt("Please enter a valid number"));
+// }
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// let attempts = 1;
+
+// let guess = prompt("enter your first guess (type 'q' to quit)");
+// while ((parseInt(guess) !== targetNum) && (guess!== 'q')) {
+// 	if(guess === 'q') break;
+//     attempts++;
+//     if (guess > targetNum) {
+//         guess = prompt("too high!");
+//     } else {
+//         guess = prompt("too low!");
+//     }
+// }
+
+// if(guess === 'q'){
+// 	alert("see you!")
+// }else{
+// 	alert(`YOU GOT IT! It took you ${attempts} guesses`);
+// }
